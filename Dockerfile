@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.12
 RUN apk update && apk upgrade
 RUN apk add git gcc musl-dev libffi-dev python python-dev py-pip
 
